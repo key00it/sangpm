@@ -279,4 +279,8 @@ hr {
 	.searchbar:hover > .search_input {
 		width: 250px;
 	}
+
+	.title-big {
+		font-size: 20px;
+	}
 }
