@@ -1,3 +1,8 @@
+body {
+	background: #f9f9ff;
+	font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
 	transition: 0.6s;
 }
@@ -356,7 +361,7 @@
 	background: linear-gradient(to right,#4ad0f7, #a2fdb1);
 	position: absolute;
 	top: 0;
-	left: 50%;
+	left: 57%;
 	line-height: 31px;
 	border: 2px solid #fff;
 	width: 100px;
@@ -482,6 +487,7 @@
 
 ::-webkit-scrollbar {
 	width: 5px;
+	height: 5px;
 	transition: 0.6s;
 	background-color: #F5F5F5;
 }
@@ -592,24 +598,6 @@
 	color: grey;
 }
 
-/*filter 2*/
-
-.btn:focus, .btn:active, button:focus, button:active {
-	outline: none !important;
-	box-shadow: none !important;
-}
-
-#image-gallery .modal-footer{
-	display: block;
-}
-
-.thumb{
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-/*end filter 2*/
-
 .link-sosical span a {
 	transition: 0.6s;
 }
@@ -622,7 +610,33 @@
 	margin: 0 !important;
 }
 
+.simplefilter li {
+	color: #222;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #A299EF;
+	border-radius: 5px;
+	line-height: 30px;
+	transition: 0.3s;
+}
 
+.simplefilter li.active {
+	border: 1px solid #A299EF;
+	background: linear-gradient(90deg, #4ad0f7 0%,#BADDBF 25%,#a2fdb1 50%,#BADDBF 75%,#4ad0f7 100%);
+	background-size: 200% 200%;
+	background-repeat: no-repeat;
+	transition: 0.3s;
+	color: #fff;
+}
+
+.simplefilter li:hover {
+	background: linear-gradient(90deg, #4ad0f7 0%,#BADDBF 25%,#a2fdb1 50%,#BADDBF 75%,#4ad0f7 100%);
+	background-size: 200% 200%;
+	color: #fff;
+}
+
+.simplefilter li.active:hover {
+	background-size: 100% 100%;
+}
 
 @media all and (max-width: 768px) {
 	#header h1 {
@@ -657,6 +671,10 @@
 	#live-streaming .tab {
 		font-size: 0.7rem;
 	}
+
+	.sub-email > input {
+		left: 65%;
+	}
 }
 
 @media all and (max-width: 425px) {
@@ -666,6 +684,14 @@
 
 	.text-about p {
 		
+	}
+
+	#ps4 p {
+		font-size: 0.9rem;
+	}
+
+	#footer .navbar-brand {
+		font-size: 0.9rem;
 	}
 }
 

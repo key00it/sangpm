@@ -61,7 +61,7 @@
 						<a class="bar1 nav-link js-scroll-trigger" href="#">PAGES</a>
 					</li>
 					<li class="nav-item">
-						<a class="bar1 nav-link js-scroll-trigger" o href="#">BLOG</a>
+						<a class="bar1 nav-link js-scroll-trigger" o href="pages/blog.html">BLOG</a>
 					</li>
 					<li class="nav-item">
 						<a class="bar1 nav-link js-scroll-trigger" o href="pages/contact.html">CONTACT</a>
@@ -103,7 +103,7 @@
 	</div>
 
 	<div id="about" class="row m-0">
-		<div class="container m-sm-0-0 p-sm-0">
+		<div class="container">
 			<div class="content-about col-lg-11">
 				<div class="col-lg-6 text-white text-about">
 					<p>About Us</p>
@@ -122,13 +122,16 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div id="filter" class="container">
 		<!-- Filter Controls - Simple Mode -->
 		<div class="row">
+            <div class="col-lg-12 gallery-text">
+                <h3 class="bg-text">Simple filter controls</h3>
+                <h3 class="text">Simple filter controls</h3>
+            </div>
         <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
         	for an unfiltered gallery and then the values of your categories to filter between them -->
-        	<ul class="simplefilter">
-        		Simple filter controls:
+        	<ul class="simplefilter m-auto">
         		<li class="fltr-controls active" data-filter="all">All</li>
         		<li class="fltr-controls" data-filter="1">Cityscape</li>
         		<li class="fltr-controls" data-filter="2">Landscape</li>
@@ -260,13 +263,13 @@
     </div>
 
     <div id="gallery" class="container">
-    	<div class="row text-center">
+    	<div class="row m-0 text-center">
     		<div class="col-lg-12 gallery-text">
     			<h3 class="bg-text">Screens Gallery</h3>
     			<h3 class="text">Screens Gallery</h3>
     		</div>
     		<div class="col-lg-8 col-sm-12">
-    			<div class="row">
+    			<div class="row m-0">
     				<div class="col-lg-6 col-sm-6 img-click">
     					<a href="images/gallery_img1.png"  data-fancybox="gallery"><img width="100%" height="100%" src="images/gallery_img1.png"></a>
     					<p><i class="fas fa-2x fa-eye"></i></p>
@@ -275,7 +278,7 @@
     					<a href="images/gallery_img2.png"  data-fancybox="gallery"><img width="100%" height="100%" src="images/gallery_img2.png"></a>
     					<p><i class="fas fa-2x fa-eye"></i></p>
     				</div>
-    				<div class="col-lg-12 mt-3 img-click">
+    				<div class="col-lg-12 mt-5 img-click">
     					<a href="images/gallery_img3.png"  data-fancybox="gallery"><img width="100%" height="100%" src="images/gallery_img3.png"></a>
     					<p><i class="fas fa-2x fa-eye"></i></p>
     				</div>
@@ -343,7 +346,7 @@
     				<h3 class="text">Pricing Plans</h3>
     			</div>
     			<div class="col-lg-1 d-none d-lg-block"></div>
-    			<div class="col-lg-3 col-sm-5 py-4 px-0 m-auto"> 
+    			<div class="d-none d-lg-block d-md-block col-lg-3 col-sm-5 py-4 px-0 m-auto"> 
     				<div class="price-table text-center">
     					<div class="price-table-heading">
     						<h4 class="title">Sliver Package</h4>
@@ -568,10 +571,10 @@
     				<h3 class="text">Lasteds Blog posts</h3>
     			</div>
     			<div class="col-lg-1"></div>
-    			<div class="col-lg-3 col-sm-5 p-0 m-auto">
-    				<img class="col-lg-12 p-0" width="100%" src="images/blog_img1.png">
+    			<div class="d-none d-lg-block d-md-block col-lg-3 col-sm-5 p-0 m-auto">
+    				<a href="#"><img class="col-lg-12 p-0" width="100%" src="images/blog_img1.png"></a>
     				<div class="col-lg-12 p-3">
-    					<h4>Portable Fashion for women</h4>
+    					<h4><a class="text-white" href="#">Portable Fashion for women</a></h4>
     					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam esse iure quia eveniet aspernatur expedita optio doloremque nostrum sed.</p>
     					<p class="time">
     						<span><i class="fas fa-calendar-alt"></i></span>
@@ -583,10 +586,10 @@
     					</p>
     				</div>
     			</div>
-    			<div class="col-lg-3 col-sm-5 p-0 m-auto">
-    				<img class="col-lg-12 p-0" width="100%" src="images/blog_img2.png">
+    			<div class="col-lg-3 col-xs-5 p-0 m-auto">
+    				<a href="#"><img class="col-lg-12 p-0" width="100%" src="images/blog_img2.png"></a>
     				<div class="col-lg-12 p-3">
-    					<h4>Portable Fashion for women</h4>
+    					<h4><a class="text-white" href="#">Portable Fashion for women</a></h4>
     					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam esse iure quia eveniet aspernatur expedita optio doloremque nostrum sed.</p>
     					<p class="time">
     						<span><i class="fas fa-calendar-alt"></i></span>
@@ -599,9 +602,9 @@
     				</div>
     			</div>
     			<div class="col-lg-3 d-none d-lg-block p-0 m-auto">
-    				<img class="col-lg-12 p-0" width="100%" src="images/blog_img3.png">
+    				<a href="#"><img class="col-lg-12 p-0" width="100%" src="images/blog_img3.png"></a>
     				<div class="col-lg-12 p-3">
-    					<h4>Portable Fashion for women</h4>
+    					<h4><a class="text-white" href="#">Portable Fashion for women</a></h4>
     					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam esse iure quia eveniet aspernatur expedita optio doloremque nostrum sed.</p>
     					<p class="time">
     						<span><i class="fas fa-calendar-alt"></i></span>
@@ -673,17 +676,30 @@
     			</div>		
     		</div>
     		<hr>
-    		<nav class="navbar navbar-default navbar-static-top p-0" role="navigation">
+    		<!-- <nav class="navbar navbar-default navbar-static-top p-0" role="navigation">
     			<div class="container p-0">
-    				<p class="navbar-brand">2019 All rights reserved | Made and design by <a class="navbar-brand" href="https://www.facebook.com/sanggkaitoo">Sang Kaito </a></p>
-    				<p class="mr-0 link-sosical">
+    				<p class="navbar-brand">2019 All rights reserved | Made and design by <a class="navbar-brand" href="https://www.facebook.com/sanggkaitoo">Sang Kaito</a></p>
+    				<p class="mr-lg-0 mr-sm-auto link-sosical">
     					<span><a href="#"><i class="fab fa-2x fa-facebook-square"></i></a></span>
     					<span><a href="#"><i class="fab fa-2x fa-twitter-square"></i></a></span>
     					<span><a href="#"><i class="fab fa-2x fa-pinterest-square"></i></a></span>
     					<span><a href="#"><i class="fab fa-2x fa-behance-square"></i></a></span>
     				</p>
     			</div>
-    		</nav>
+    		</nav> -->
+            <div class="row m-0">
+                <div class="col-lg-6 p-0 text-white copyright">
+                    <p class="text-lg-left text-center">2019 All rights reserved | Made and design by <a class="m-0" href="https://www.facebook.com/sanggkaitoo">Sang Kaito</a></p>
+                </div>  
+                <div class="col-lg-6 p-0">
+                    <p class="text-lg-right link-sosical text-center">
+                        <span><a href="#"><i class="fab fa-2x fa-facebook-square"></i></a></span>
+                        <span><a href="#"><i class="fab fa-2x fa-twitter-square"></i></a></span>
+                        <span><a href="#"><i class="fab fa-2x fa-pinterest-square"></i></a></span>
+                        <span><a href="#"><i class="fab fa-2x fa-behance-square"></i></a></span>
+                    </p>
+                </div>
+            </div>
     	</div>
     </div>
 
