@@ -268,3 +268,15 @@ hr {
 .tag li:hover a {
 	color: #fff;
 }
+
+@media all and (max-width: 768px) {
+	.searchbar:hover > .search_input {
+		width:  500px;
+	}
+}
+
+@media all and (max-width: 425px) {
+	.searchbar:hover > .search_input {
+		width: 250px;
+	}
+}
