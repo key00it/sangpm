@@ -715,6 +715,27 @@ body {
 	background-size: 100% 100%;
 }
 
+#submit-sub {
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+	transition: 0.5s;
+}
+
+#submit-sub:hover {
+	color: #222;
+}
+
+#join-us {
+	font-weight: bold;
+	font-size: 14px;
+	transition: 0.5s;
+}
+
+#join-us:hover {
+	color: #fff;
+}
+
 /*mess*/
 
 .fb-livechat,
@@ -907,6 +928,10 @@ body {
 
 	.sub-email > input {
 		left: 65%;
+	}
+
+	.modal-dialog {
+		max-width: 800px;
 	}
 }
 

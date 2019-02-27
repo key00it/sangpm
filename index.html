@@ -58,7 +58,7 @@
                         <a class="bar1 nav-link js-scroll-trigger" href="pages/gallery.html">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="bar1 nav-link js-scroll-trigger" href="#">PAGES</a>
+                        <a class="bar1 nav-link js-scroll-trigger" href="pages/page.html">PAGES</a>
                     </li>
                     <li class="nav-item blog-big">
                         <a class="bar1 nav-link js-scroll-trigger">BLOG</a>
@@ -73,8 +73,8 @@
                 </ul>
             </div>
             <a class="navbar-brand js-scroll-trigger d-none d-lg-block" href="#page-top">
-                <button class="bg-button font-weight-bold">JOIN US</button>
-            </a>
+                <button class="bg-button font-weight-bold"  id="join-us">JOIN US</button>
+            </a> 
         </div>
     </nav>
 
@@ -636,9 +636,9 @@
                     <p class="content">We won't send any kind of spam</p>
                 </div>
                 <div class="col-lg-6 col-sm-6 sub-email">
-                    <input type="submit" value="SUBCRIBE"/>
+                    <input id="submit-sub" type="submit" value="SUBCRIBE"/>
                     <div class="col-lg-8">
-                        <input type="text" />
+                        <input id="email" name="email" type="email" required="required"/>
                     </div>​
                 </div>
             </div>
@@ -726,8 +726,9 @@
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 
     <script type="text/javascript" src="js/index-js.js"></script>
 
@@ -754,6 +755,8 @@
     <!-- end filter -->
 
     <script src="js/jquery.counterup.min.js"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>

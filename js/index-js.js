@@ -106,3 +106,19 @@ $(document).ready(function() {
      $('#go-to-top').css("opacity", "0.5")
    }
 })
+
+$('#submit-sub').click(function(){ 
+      if ($('#email').val() == "") {
+         swal({
+           title: "Error!",
+           text: "You need enter your email!",
+           icon: "error",
+         });
+      } else {
+         swal({
+           title: "Succsess!",
+           text: "Done!",
+           icon: "success",
+         });
+      }
+});

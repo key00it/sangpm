@@ -4,3 +4,8 @@
 	color: #3fcaff;
 	font-weight: 600 !important;
 }
+
+#submit-btn {
+	font-weight: bold;
+	color: #fff;
+}
