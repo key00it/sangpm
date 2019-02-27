@@ -18,6 +18,10 @@ a:hover p, a:hover h3, a:hover {
 	color: #007bff;
 }
 
+.link-sosical span a:hover {
+	color: #0056b3;
+}
+
 .text-color-gr {
 	color: #777777;
 }
@@ -205,6 +209,10 @@ a:hover p, a:hover h3, a:hover {
 
 .list li:hover {
 	border-bottom: 2px dotted #3fcaff;
+}
+
+.list li:hover a p{
+	color: #3fcaff;
 }
 
 .list li p {
