@@ -854,13 +854,14 @@ body {
 	bottom: 300px;
 	right: 10px;
 	opacity: 0;
+	font-size: 25px;
 	transition: 0.4s;
 	color: rgba(59, 89, 152, .8);
 }
 
 #go-to-top:hover {
 	opacity: 1;
-	font-size: 17px;
+	font-size: 27px;
 }
 
 
